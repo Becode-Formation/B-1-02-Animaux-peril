@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+    )
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+/* HEADER NAV*/
+
+nav {
+    background: #70684B;
+    position: relative;
+}
+
+nav,nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.navbar__left, .navbar__right{
+    margin: 25px 10px;
+}
+.navbar__left{
+    margin-right: 65px;
+}
+
+.navbar__right {
+    margin-left: 65px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 11px;
+    font-weight: medium;
+}
+
+nav a:hover {
+    color: rgb(168, 163, 154);
+}
+
+.navbar__logo {
+    position: absolute;
+    margin: 0 auto;
+    top: 10px;
+}
+
+/* ACCROCHE */
+
+.accroche {
+    background-image: url(img/headerBG.png);
+    background-size: 106%;
+    height: 440px;
+}
+
+.accroche__texte h1 {
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.accroche__texte{
+    text-align: left;
+    width: 30%;
+    padding: 75px 33px;
+}
+
+.accroche__texte p {
+    font-weight: 200;
+}
+
+/* ACTIONS */
+ .actions h2 {
+     text-align: center;
+     font-size: 24px;
+     font-weight: 400;
+ }
+
+ .actions__grid {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     width: 75%;
+     justify-items: center;
+     margin: 0 auto;
+ }
+
+ .action{
+     font-weight: 400;
+     border: 8px solid #70633A;
+     border-radius: 50%;
+     width: 154px;
+     height: 154px;
+     display: flex;
+     text-align: center;
+     align-items: center;
+ }
+
+ .action strong {
+     padding: 0;
+ }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Animaux en Péril - Sauvons les animaux maltraités</title>
 </head>
 <body>
@@ -14,28 +15,32 @@
                  <li><a href="#qui">Qui sommes-nous ?</a></li>
                  <li><a href="#actions">Actions</a></li>
              </ul>
-             <a href="index.html"><img src="img/logo.png" alt="logo" class="navbar__logo"></a>
+             <a href="index.html" class="navbar__logo"><img src="img/logo.png" alt="logo"></a>
              <ul class="navbar__right">
                  <li><a href="#contact">Contact</a></li>
                  <li><a href="#other">Autres associations</a></li>
              </ul>
          </nav>
         <!--ACCROCHE-->
-         <h1>Animaux en Péril</h1>
-         <p>
-            Fondée en 1983, <strong>Animaux en Péril</strong> est une des plus importantes associations de protection animale de Belgique. 
-            La mission principale de l'association consiste à accueillir, héberger, soigner et replacer les équidés et animaux de ferme abandonnés, saisis ou errants. 
-            Une attention toute particulière est portée au sauvetage des <strong>animaux issus de maltraitances</strong> ou de négligences graves, ainsi qu'à leur revalidation.
-         </p>
+        <div class="accroche">
+            <div class="accroche__texte">
+                <h1>Animaux en Péril</h1>
+                <p>
+                Fondée en 1983, <strong>Animaux en Péril</strong> est une des plus importantes associations de protection animale de Belgique. 
+                La mission principale de l'association consiste à accueillir, héberger, soigner et replacer les équidés et animaux de ferme abandonnés, saisis ou errants. 
+                Une attention toute particulière est portée au sauvetage des <strong>animaux issus de maltraitances</strong> ou de négligences graves, ainsi qu'à leur revalidation.
+                </p>  
+            </div> 
+        </div>
     </header>       
     <!--ACTIONS-->
     <section class="actions" id="actions">
         <h2>Nos Actions</h2>
         <div class="actions__grid">
-            <p>Saisi par les autorités les animaux <strong>maltraités</strong></p>
-            <p>Offrir les meilleurs soins au sein du refuges</p>
-            <p>Offrir une <strong>seconde chance</strong> au animaux recueilli</p>
-            <p>Militer pour l’évolution des lois en matière de <strong>bien-être animal</strong></p>
+            <div class="action">Saisi par les autorités les animaux maltraités</div>
+            <div class="action">Offrir les meilleurs soins au sein du refuges</div>
+            <div class="action">Offrir une seconde chance au animaux recueilli</div>
+            <div class="action">Militer pour l’évolution des lois en matière de bien-être animal</div>
         </div>
     </section>
     <!--QUI SOMMES-NOUS-->
@@ -56,7 +61,7 @@
     <section class="contact" id="contact">
         <h2>Contact</h2>
             <!--FORMULAIRE NEWSLETTERS-->
-        <form action="" class="newsletters">
+        <form class="newsletters">
             <input type="email" value="Inscrit-toi à la newsletter">
             <input type="submit" value="S'abonner">
         </form>
@@ -70,9 +75,9 @@
     </section>
     <!--AUTRES ASSOCIATIONS-->
     <section class="autres" id="autres">
-        <h1>D'autres associations similaires</h1>
+        <h2>D'autres associations similaires</h2>
         <ul>
-            <li><a href="https://www.lefanaldeschats.org/"><Le Fanal des Chats/a></li>
+            <li><a href="https://www.lefanaldeschats.org/">Le Fanal des Chat</a></li>
             <li><a href="https://www.croixbleue.be/"></a>Croix Bleue Belgique</li>
             <li><a href="https://www.veeweyde.be/">Veeweyde</a></li>
             <li><a href="https://wwf.be/">WWF</a></li>
