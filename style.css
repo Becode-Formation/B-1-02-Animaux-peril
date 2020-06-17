@@ -1,7 +1,11 @@
 @font-face {
     font-family: "Roboto";
     src: url(    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
-    )
+}
+
+@font-face {
+    font-family: "Palaquin";
+    src: url('https://fonts.googleapis.com/css2?family=Palanquin:wght@700&display=swap');
 }
 
 body {
@@ -54,6 +58,11 @@ nav a:hover {
     position: absolute;
     margin: 0 auto;
     top: 10px;
+    text-align: center;
+}
+
+.navbar__logo img {
+    width: 80%;
 }
 
 /* ACCROCHE */
@@ -76,14 +85,14 @@ nav a:hover {
 }
 
 .accroche__texte p {
-    font-weight: 200;
+    font-weight: 100;
 }
 
 /* ACTIONS */
  .actions h2 {
      text-align: center;
      font-size: 24px;
-     font-weight: 400;
+     font-weight: 500;
  }
 
  .actions__grid {
@@ -108,3 +117,157 @@ nav a:hover {
  .action strong {
      padding: 0;
  }
+
+ /* QUI SOMMES NOUS */
+
+ .qui {
+     margin: 30px 0;
+     background-image: url(img/quiBG.png);
+     background-size: 150%;
+     background-position: top -324px right -24px;
+     height: 439px;
+ }
+
+ .qui__texte {
+     width: 470px;
+     height: max-content;
+     float: right; 
+     background-color: rgba(255, 255, 255, 0.3);
+     padding-right: 36px;
+     padding-left: 30px;
+     padding-top: 35px;
+     padding-bottom: 26px;
+ }
+
+ .qui h2, .qui p {
+     margin: 0;
+ }
+
+ .qui h2 {
+    padding-bottom: 20px;
+    font-weight: medium;
+ }
+
+ .qui p {
+     font-weight: 200;
+ }
+
+ /* CITATION */
+ .citation {
+    margin: 40px 0; 
+ }
+
+ .citation a {
+     text-decoration: none;
+     color: inherit;
+     text-align: center;    
+ }
+
+ blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+    position: relative;
+    color: rgb(126, 126, 126);
+ }
+
+ blockquote::before, blockquote::after{
+     content: '"';
+     font-family: Palaquin;
+     font-size: 60px;
+     position: relative;
+     color: #000;
+ }
+blockquote::before {
+     top: -15px;
+     right: 15px;
+ }
+
+ blockquote::after {
+    bottom: -55px;
+    left: 15px;
+ }
+
+ q {
+  font-size: 14px;
+  position: absolute;
+  right: 23%;
+  quotes: none;
+  font-style: 500;
+ }
+
+ /* CONTACT */
+
+ .contact {
+     background: no-repeat 25%/ 10% url(img/logo.png) #BDAE7E;
+     text-align: center;
+     color: #fff;
+     padding-top: 11px;
+     padding-bottom: 25px;
+     margin: 30px 0;
+     position: relative;
+ }
+
+ .newsletters input:first-of-type {
+    font-weight: 100;
+    border-radius: 0%;
+    border: 1px solid #fff;
+    padding: 6px 12px;
+    margin-bottom: 26px;
+ }
+
+ .newsletters input:last-of-type {
+     background: #70633A;
+     border: #70633A;
+     padding: 7px 10px;
+     margin: 0;
+ }
+
+ .infos {
+     font-size: 12px;
+ }
+
+ /* AUTRES ASSOCIATIONS */
+
+.autres {
+    text-align: center;
+}
+
+.autres ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    list-style: none;
+}
+
+.autres li {
+    padding-left: 30%;
+}
+
+.autres li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+}
+
+.autres li a:hover {
+    color: #70633A;
+    font-style: italic;
+}
+
+.autres h2 {
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+/* FOOTER */
+
+footer p {
+    background: #70684B;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
