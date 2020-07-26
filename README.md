@@ -1,27 +1,28 @@
 # Animaux en Peril
 
-## Qu'est ce que c'est ? 
+## **What's ? :mag_right:**   
 ____
-
 Fondée en 1983, **Animaux en Péril** est une des plus importantes associations de protection animale de Belgique. 
 La mission principale de l'association consiste à accueillir, héberger, soigner et replacer les équidés et animaux de ferme abandonnés, saisis ou errants. 
 Une attention toute particulière est portée au sauvetage des **animaux issus de maltraitances** ou de négligences graves, ainsi qu'à leur revalidation.
 
-[Lien du site officil de l'association](http://www.animauxenperil.be/)
+[Lien du site officiel de l'association](http://www.animauxenperil.be)
 
-## Pourquoi cette page ? 
-____
+## **Update :scroll:**  
+  - Version 1 18/06/2020
+  - Updated README.md 26/07/2020
 
-Cette page est un exercice de la formation BeCoden dans lequel il faut faire une "one pager" sur une association caritative. 
-Le but est d'utiliser Git comme versionning, HTML et CSS pour la mise en page, en faisant attetion à utiliser ce qui à été vu précédemment, en respectant la *sémantique html*. 
+## **Made by :busts_in_silhouette:**
+- :godmode:[JackRob](https://github.com/JackRob)
 
-## Réalisé par 
-@JackRob
-
-## Techno utilisée 
-
+## **Tools :wrench:** 
 - HTML
 - CSS
 - Figma pour la maquette
 
-
+## **Why :computer:**
+En pleine formation **Developer Web** chez [BeCode](https://becode.org/) je réalise divers exercice afin d'apprendre les languages et technologie du developpement Web. Chaque exercice est en ligne sur GitHub via un *repo* associé.  
+ 
+**BeCode :**    
+BeCode propose des formations gratuites dans le secteur de l’IT à toute personne motivée à changer sa vie ! Devenez développeu.r.se web, AI operator, développeu.r.se DevSecOps en 7 mois. Pas besoin de diplôme, d’argent ou d’expérience professionnelle. Venez comme vous êtes, avec votre motivation.  
+![Becode](https://becode.org/app/uploads/2020/03/bc_mailsign_seal.png)
